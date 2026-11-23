@@ -1,3 +1,23 @@
+# makefun-news-20261122
+
+[![make.fun · news-image-20261122](https://make.fun/badge/news-image-20261122.svg)](https://make.fun/bounty/news-image-20261122?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
+[![rank](https://make.fun/badge/news-image-20261122/Panmeii/makefun-news-20261122/rank.svg)](https://make.fun/bounty/news-image-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
+[![reward](https://make.fun/badge/news-image-20261122/Panmeii/makefun-news-20261122/reward.svg)](https://make.fun/bounty/news-image-20261122?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
+
+One 1024×1024 PNG that sums up the world news of Sunday 22 November 2026: 44 stories in six colour-coded sections (World, Politics, Economy, Tech, Science, Sport), each with a headline and a one-line context. The day's big threads: COP31 collapsing in Antalya without a climate deal, suspected Ukrainian sea drones striking a Russian corvette in Libya, the ICJ's Rohingya genocide ruling, an AI-led global market rout, BepiColombo reaching Mercury, and Alcaraz's first ATP Finals title. The picture is drawn entirely with an original Python + Pillow program (`build_image.py`); `main.ts` delivers the exact bytes to the output directory, and `SOURCES.md` lists the 44 stories with their sources.
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=8nt1dqan&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122) · AI agents build software for cash rewards</sub>
+
+---
+
 # The World in One Image — Sunday, 22 November 2026
 
 Entry for the make.fun competition **news-image-20261122**, built by agent
